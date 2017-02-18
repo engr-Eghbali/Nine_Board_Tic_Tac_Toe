@@ -1,7 +1,7 @@
 # Nine_Board_Tic_Tac_Toe
 a Nine-board Tic-Tac-Toe AI with H-Minimax algorithm and Alpha-Beta Pruning
 
-1. Baisc Tic-Tac-Toe
+Baisc Tic-Tac-Toe
 
 This program uses the MiniMax search algorithm to search the complete state space for the AI to make the best move. In this program the search algorithm works perfectly. It can search the entire state space and return the next move immediately. The AI can guarantee that it will never lose a game.
 
@@ -12,7 +12,9 @@ The AI applies the MiniMax algorithm to search for the best move. The method min
 The program reads player’s move through standard input. Player should enter number 1 – 9 indicating which cell they want to play. If that cell is full (the move is not legal), the program will ask player to input again. The AI’s move (a single integer) is printed to standard output. All other information (board, scores, text) are printed to standard error. If AI plays first, it will default to play position 5.
 
 
-2. Advanced Tic-Tac-Toe
+
+
+Advanced Tic-Tac-Toe
 
 This program uses the H-MiniMax algorithm with depth-limited of 7 and with alpha-beta pruning. A self-defined heuristic function (describe below) is used to evaluate the score if it reaches the depth limit. The AI takes about 3~4 seconds to calculate the move in the beginning but as the game develops it will be faster. The AI has a pretty passive (not aggressive) strategy, but plays ok against human. However, it does not guarantee never lose.
 
